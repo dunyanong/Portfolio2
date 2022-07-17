@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>Homepage</title>
+    <title>Home Page</title>
     <meta name="description" content="Portfolio Template for Developer" />
 
     <link rel="stylesheet" href="css/style2.0.css" />
@@ -22,7 +22,7 @@
         <div class="header__logo-container">
           <div class="header__logo-img-cont">
             <img
-              src="./assets/png/profile_picture_-removebg-preview.png"
+              src="./assets/png/Profile Picture.png"
               alt="Dun Yan Logo Image"
               class="header__logo-img"
             />
@@ -32,7 +32,7 @@
         <div class="header__main">
           <ul class="header__links">
             <li class="header__link-wrapper">
-              <a href="./home.html" class="header__link"> Home </a>
+              <a href="./home.html#home" class="header__link"> Home </a>
             </li>
             <li class="header__link-wrapper">
               <a href="./home.html#about" class="header__link">About </a>
@@ -64,7 +64,7 @@
         <div class="header__sm-menu-content">
           <ul class="header__sm-menu-links">
             <li class="header__sm-menu-link">
-              <a href="./home.html"> Home </a>
+              <a href="./home.html#home"> Home </a>
             </li>
 
             <li class="header__sm-menu-link">
@@ -82,7 +82,7 @@
         </div>
       </div>
     </header>
-    <section class="home-hero">
+    <section class="home-hero" id="home">
       <div class="home-hero__content">
         <h2 class="heading-primary">Hey, My name is</h2>
         <h1 class="heading-primary">Dun Yan</h1>
@@ -106,6 +106,15 @@
           </a>
         </div>
         <div class="home-hero__social">
+          <a href="https://www.linkedin.com/in/dun-yan-ong-b26aa5244/" class="home-hero__social-icon-link" target="_blank">
+            <img
+              src="./assets/png/linkedin-ico.png"
+              alt="icon"
+              class="home-hero__social-icon"
+            />
+          </a>
+        </div>
+        <div class="home-hero__social">
           <a href="https://twitter.com/dun_yan_" class="home-hero__social-icon-link" target="_blank">
             <img
               src="./assets/png/twitter-ico.png"
@@ -115,7 +124,7 @@
           </a>
         </div>     
         <div class="home-hero__social">
-          <a href="https://www.instagram.com/dun_yan_/" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none">
+          <a href="https://www.instagram.com/dunyanong/" class="home-hero__social-icon-link home-hero__social-icon-link--bd-none" target="_blank">
             <img
               src="./assets/png/insta-ico.png"
               alt="icon"
@@ -128,6 +137,7 @@
         <div class="mouse"></div>
       </div>
     </section>
+    
     <section id="about" class="about sec-pad">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
@@ -139,20 +149,27 @@
         <div class="about__content">
           <div class="about__content-main">
             <h3 class="about__content-title">Get to know me!</h3>
+            <div class="realFaceContainer">
+              <img
+                src="/Portfolio-Template/assets/png/RealFace.png"
+                alt="My Profile Picture"
+                class="RealFaceImage"
+              />
+            </div>
             <div class="about__content-details">
               <p class="about__content-details-para">
                 Hey! It's
                 <strong>Dun Yan</strong>
                 and I'm a <strong> Web Developer </strong> located in Kuala Lumpur
-                Malaysia. Besides enjoying writing ReactJS, BootstrapCSS and HTML, I also have 
-                a solid foundation in UI design with <strong>Figma</strong>, 
+                Malaysia. Besides enjoying writing ReactJS, BootstrapCSS,and HTML, I also have 
+                a solid foundation in UI design with <strong>Figma</strong>
                 
               </p>
               <p class="about__content-details-para">
                 <strong>Contact</strong> me here👇.
               </p>
             </div>
-            <a href="./#contact" class="btn btn--med btn--theme dynamicBgClr"
+            <a href="./home.html#contact" class="btn btn--med btn--theme dynamicBgClr"
               >Contact</a
             >
           </div>
@@ -177,28 +194,27 @@
         <h2 class="heading heading-sec heading-sec__mb-bg">
           <span class="heading-sec__main">Projects</span>
           <span class="heading-sec__sub">
-            Projects
+            
           </span>
         </h2>
-
       
         <div class="projects__content">
           <!--Weather App-->
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+              <a href="https://webweatherapp.vercel.app/" target="_blank">
+                <img
+                src="./assets/png/projectImages/WeatherApp.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
+              </a>
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Weather App</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                A weather web application built with Open Weather API with W3C Geolocation API
               </p>
               <a
                 href="https://webweatherapp.vercel.app/"
@@ -207,31 +223,31 @@
                 >View Project</a
               >
               <a
-                href="./Projects/Weather App.html"
+                href="https://github.com/dunyanong/Weather-App"
                 class="skills__skill dynamicBgClr moreInfo"
                 target="_blank"
                 ><p class="moreInfoText">More Info</p></a
               >
             </div>
-            
-            </div>
+          </div>
 
           <!--ToDoList-->
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+              <a href="https://todolistweb.vercel.app/" target="_blank">
+                <img
+                src="./assets/png/projectImages/ToDoList.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
+                href="https://todolistweb.vercel.app/"
               />
+              </a>
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">ToDoList</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                Built with Boostrap CSS framework and designed with Figma.Best for Productivity Enthusiasts. 
               </p>
               <a
                 href="https://todolistweb.vercel.app/"
@@ -240,31 +256,62 @@
                 >View Project</a
               >
               <a
-                href="./Projects/ToDoList.html"
+                href="https://github.com/dunyanong/To-Do-List"
                 class="skills__skill dynamicBgClr moreInfo"
                 target="_blank"
                 ><p class="moreInfoText">More Info</p></a
               >
             </div>
-            
+
+            <!--Data Analysis Projects-->
+            </div>
+            <div class="projects__row">
+              <div class="projects__row-img-cont">
+                <a href="./assets/png/projectImages/DataAnalysis.png" target="_blank">
+                  <img
+                  src="./assets/png/projectImages/DataAnalysis.png"
+                  alt="Software Screenshot"
+                  class="projects__row-img"
+                  loading="lazy"
+                />
+                </a>
+              </div>
+              <div class="projects__row-content">
+                <h3 class="projects__row-content-title">Data Analysis Projects</h3>
+                <p class="projects__row-content-desc">
+                  Analyzed data of Fifa football Players and gas prices in different countries using matplotlib and numpy library
+                </p>
+                <a
+                  href="./assets/png/projectImages/DataAnalysis.png"
+                  class="btn btn--med btn--theme dynamicBgClr"
+                  target="_blank"
+                  >View Project</a
+                >
+                <a
+                  href="https://github.com/dunyanong/Matplotlib-Data"
+                  class="skills__skill dynamicBgClr moreInfo"
+                  target="_blank"
+                  ><p class="moreInfoText">More Info</p></a
+                >
+              </div>
             </div>
 
           <!--Quote Generator-->
           <div class="projects__row">
             <div class="projects__row-img-cont">
-              <img
-                src="./assets/jpeg/project-mockup-example.jpeg"
+              <a href="https://webquotegenerator.vercel.app/" target="_blank">
+                <img
+                src="./assets/png/projectImages/QuoteGenerator.png"
                 alt="Software Screenshot"
                 class="projects__row-img"
                 loading="lazy"
               />
+              </a>
             </div>
             <div class="projects__row-content">
               <h3 class="projects__row-content-title">Quote Generator</h3>
               <p class="projects__row-content-desc">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-                facilis tempora, explicabo quae quod deserunt eius sapiente
-                praesentium.
+                The Random Quote Generator is used to generate random quotations. Built with vanilla Javascript, HTML and CSS
               </p>
               <a
                 href="https://webquotegenerator.vercel.app/"
@@ -273,7 +320,7 @@
                 >View Project</a
               >
               <a
-                href="./Projects/QuoteGenerator.html"
+                href="https://github.com/dunyanong/Quote-Generator"
                 class="skills__skill dynamicBgClr moreInfo"
                 target="_blank"
                 ><p class="moreInfoText">More Info</p></a
@@ -288,10 +335,9 @@
     <section id="contact" class="contact sec-pad dynamicBg">
       <div class="main-container">
         <h2 class="heading heading-sec heading-sec__mb-med">
-          <span class="heading-sec__main heading-sec__main--lt">Contact</span>
+          <span class="heading-sec__main heading-sec__main--lt">Get In Touch</span>
           <span class="heading-sec__sub heading-sec__sub--lt">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic facilis
-            tempora explicabo quae quod deserunt eius sapiente
+            If you are interested in having a coffee chat, collaborating on an open-source project, be sure to fill the form up or direct message me on my social media 😊
           </span>
         </h2>
         <div class="contact__form-container">
@@ -342,38 +388,31 @@
         <div class="main-footer__upper">
           <div class="main-footer__row main-footer__row-1">
             <h2 class="heading heading-sm main-footer__heading-sm">
-              <span>Social</span>
+              <span>Socials</span>
             </h2>
             <div class="main-footer__social-cont">
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/dun-yan-ong-b26aa5244/">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/linkedin-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://github.com/dunyanong">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/github-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://twitter.com/dun_yan_">
                 <img
                   class="main-footer__icon"
                   src="./assets/png/twitter-ico.png"
                   alt="icon"
                 />
               </a>
-              <a target="_blank" rel="noreferrer" href="#">
-                <img
-                  class="main-footer__icon"
-                  src="./assets/png/yt-ico.png"
-                  alt="icon"
-                />
-              </a>
-              <a target="_blank" rel="noreferrer" href="#">
+              <a target="_blank" rel="noreferrer" href="https://www.instagram.com/dunyanong/">
                 <img
                   class="main-footer__icon main-footer__icon--mr-none"
                   src="./assets/png/insta-ico.png"
@@ -383,10 +422,12 @@
             </div>
           </div>
           <div class="main-footer__row main-footer__row-2">
-            <h4 class="heading heading-sm text-lt">John Doe</h4>
+            <h4 class="heading heading-sm text-lt">DunYan</h4>
             <p class="main-footer__short-desc">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit facilis
-              tempora explicabo quae quod deserunt
+              Designed and developed by DunYan Ong
+            </p>
+            <p class="main-footer__short-desc">
+              Hosted on <strong>Vercel</strong>
             </p>
           </div>
         </div>

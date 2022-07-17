@@ -135,6 +135,7 @@ textarea {
           transform: translateX(-50%);
   border-radius: 5px;
 }
+
 @media only screen and (max-width: 37.5em) {
   .heading-sec__main::after {
     top: calc(100% + 1.2rem);
@@ -161,7 +162,6 @@ textarea {
 
 .heading-sm {
   font-size: 2.2rem;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -746,7 +746,9 @@ textarea {
      object-fit: cover;
   -o-object-position: center;
      object-position: center;
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .header__logo-sub {
   font-size: 1.8rem;
@@ -832,7 +834,6 @@ textarea {
   text-align: right;
   border-bottom: 1px solid #eee;
   font-weight: 700;
-  text-transform: uppercase;
   letter-spacing: 2px;
   -webkit-transition: color 0.3s;
   transition: color 0.3s;

@@ -50,8 +50,22 @@ body {
   font-family: sans-serif;
   overflow-x: hidden;
   overflow-y: scroll;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
+
+.RealFaceImage{
+  border-radius: 10px;
+  height: 30rem;
+  width: 30rem;
+  transition: all 0.5s ease-in-out;
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 10%);
+}
+
+.RealFaceImage:hover{
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 50%);
+}
+
+
 
 a {
   text-decoration: none;
@@ -161,7 +175,6 @@ textarea {
 
 .heading-sm {
   font-size: 2.2rem;
-  text-transform: uppercase;
   letter-spacing: 1px;
 }
 
@@ -261,6 +274,8 @@ textarea {
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
 }
+
+
 @media only screen and (max-width: 56.25em) {
   .home-hero__socials {
     display: none;
@@ -290,7 +305,7 @@ textarea {
   transition: background 0.3s;
 }
 .home-hero__social-icon-link:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background-color: grey;
 }
 .home-hero__social-icon-link--bd-none {
   border-bottom: 0;
@@ -393,7 +408,15 @@ textarea {
 }
 .projects__row-img-cont {
   overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 10%);
+  transition: all 0.5s ease-in-out;
 }
+
+.projects__row-img-cont:hover {
+  box-shadow: 1px 1px 20px rgb(0 0 0 / 50%);
+}
+
 .projects__row-img {
   width: 100%;
   display: block;

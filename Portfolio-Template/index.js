@@ -35,5 +35,5 @@ for (let i = 0; i < headerSmallMenuLinks.length; i++) {
 const headerLogoConatiner = document.querySelector('.header__logo-container')
 
 headerLogoConatiner.addEventListener('click', () => {
-  location.href = 'home.html'
+  location.href = 'http://127.0.0.1:5500/Portfolio-Template/home.html#home'
 })

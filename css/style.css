@@ -142,6 +142,11 @@ h3{
   margin: auto;
 }
 
+.clickMe{
+  font-size: 1.3rem;
+  font-weight: lighter;
+}
+
 @keyframes glowing {
   0% { background-position: 0 0; }
   50% { background-position: 400% 0; }
