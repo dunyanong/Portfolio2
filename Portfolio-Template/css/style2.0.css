@@ -225,11 +225,12 @@ textarea {
 }
 
 .sec-pad {
-  padding: 12rem 0;
+  padding-top: 5rem;
+  padding-bottom: 1rem;
 }
 @media only screen and (max-width: 56.25em) {
   .sec-pad {
-    padding: 8rem 0;
+    padding: 8rem;
   }
 }
 
