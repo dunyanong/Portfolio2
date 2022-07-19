@@ -331,6 +331,10 @@ textarea {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0);
   }
+  .RealFaceImage{
+    width: 20rem;
+    height: 20rem;
+  }
 }
 .home-hero__info {
   margin: 3rem auto 0 auto;
